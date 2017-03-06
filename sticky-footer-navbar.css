@@ -1,0 +1,209 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 40px 15px 0;
+}
+
+div.transbox {
+  padding-top: 30em;
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.space {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.middle{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.down{
+	border:none;
+	background: rgba(255,255,255, 0.80);
+}
+
+.down:hover {
+	background-color: white;
+}
+
+.top{
+	background: rgba(255,255,255, 1);
+	padding: 10px;
+	border: none;
+}
+
+.toph{
+	background: rgba(255,255,255, 0);
+	padding: 10px;
+	border: none;
+}
+
+.brand{
+	font-size: 1.5em;
+}
+
+html.home { 
+  background: url(img/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-left{
+	padding: 0;
+}
+
+@media (min-width: 768px) {
+	.dropdown:hover .dropdown-menu {
+	display: block;
+}
+.dropdown-menu:hover {
+	background-color:transparent;
+}
+}
+
+.dropdown-menu {
+	background-color:transparent ;
+}
+
+@media (min-width: 768px) {
+li.nav{
+	padding-top: 3em;
+}
+}
+
+.nav.navbar-nav li.nav a.h{
+	color:white;
+}
+
+@media (min-width: 768px) {
+.nav.navbar-nav li.nav a.h:hover{
+	color:black;
+}
+}
+
+.nav.navbar-nav li.nav a{
+	color:gray;
+}
+
+.nav.navbar-nav li.nav a:hover{
+	color:black;
+}
+
+p.ab{
+	text-align:center;
+	padding-top:10em;
+}
+
+p.about{
+	text-align:center;
+}
+
+img.ig{
+	height:2em;
+	width:2em;
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+.bigig {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+	height:225px;
+	width:300px;
+	padding: 2px;
+}
+
+.portig {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+	height:225px;
+	padding: 5px;
+}
+
+.cimg {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+	height:300px;
+	width:auto;
+}
+
+#images{
+    text-align:center;
+}
+
+/*body {
+    background-image: url("img/pattern.png");
+}*/
+
+.small {
+    font-variant: small-caps;
+	font-size: 1.5em;
+}
+
+.smallDrop {
+    font-variant: small-caps;
+	font-size: 1.2em;
+}
+
+.con{
+	font-size:1.4em;
+}
+
+p.port{
+	font-size:1.8em;
+	text-align:center;
+	padding-top:5em;
+}
+
+p.pad{
+	padding-top:10em;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: transparent;
+}
+
+
+
+
